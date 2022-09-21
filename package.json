@@ -11,6 +11,7 @@
   "license": "MIT",
   "devDependencies": {
     "@tarojs/components": "^3.5.4",
+    "@tarojs/service": "^3.5.4",
     "@tarojs/plugin-platform-weapp": "^3.5.4",
     "@tarojs/taro": "^3.5.4",
     "@types/node": "^16.11.12",
