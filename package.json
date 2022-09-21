@@ -1,6 +1,6 @@
 {
   "name": "@suntree/tarojs-plugin-platform-miniprogram",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "@tarojs/plugin-platform-weapp custom wxml support",
   "main": "dist/index.js",
   "scripts": {
