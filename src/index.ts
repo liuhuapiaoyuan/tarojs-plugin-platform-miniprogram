@@ -25,10 +25,12 @@ export default (ctx: IPluginContext, options: Options) => {
     name: "miniprogram",
     useConfigName: "mini",
     async fn({ config }) {
-      config.onBuildFinish = ({ stats }) => {
-        stats?.compilation?.entries?.forEach((entry) => {
+      config.onBuildFinish = (event) => {
+        const { stats } = event
+        stats?.compilation?.entries?.forEach((entryItem) => {
+          // webpack5 
+          const entry = entryItem.dependencies?.[0]
           if (entry.miniType !== "PAGE") return
-
           if (
             options?.include &&
             !options.include.some((pattern) => entry.name.match(pattern))
