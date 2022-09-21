@@ -6,6 +6,11 @@
 
 [@tarojs/plugin-platform-weapp](https://github.com/NervJS/taro/tree/next/packages/taro-weapp) 自定义 wxml 支持，目前可主要用于支持 [`page-meta`](https://developers.weixin.qq.com/miniprogram/dev/component/page-meta.html) 和 [`navigation-bar`](https://developers.weixin.qq.com/miniprogram/dev/component/navigation-bar.html)，[`Taro`](https://github.com/NervJS/taro) 版本需大于 `3.1.0`
 
+
+### 2022-09-21
+- 该版本升级了对taro 3.5.X的插件支持
+
+
 ## 安装
 
 ```shell

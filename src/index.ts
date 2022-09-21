@@ -1,8 +1,8 @@
-import { Weapp } from "@tarojs/plugin-platform-weapp";
-import { resolve } from "path";
-import { readFileSync, writeFileSync, existsSync } from "fs";
-import type { IPluginContext } from "@tarojs/service";
 import type { IOptions } from "@tarojs/plugin-platform-weapp";
+import { Weapp } from "@tarojs/plugin-platform-weapp";
+import type { IPluginContext } from "@tarojs/service";
+import { existsSync, readFileSync, writeFileSync } from "fs";
+import { resolve } from "path";
 
 export interface Options extends IOptions {
   prefix?: string;
