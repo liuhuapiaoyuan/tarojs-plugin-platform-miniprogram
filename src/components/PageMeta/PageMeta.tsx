@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
-import { getCurrentInstance } from "@tarojs/taro";
 import type { PageMetaProps } from "@tarojs/components/types/PageMeta";
+import { getCurrentInstance } from "@tarojs/taro";
+import React, { PropsWithChildren, useEffect } from "react";
 
 export interface IPageMetaProps
   extends Pick<
@@ -19,7 +19,7 @@ export interface IPageMetaProps
   pageOrientation?: "auto" | "portrait" | "landscape";
 }
 
-export const PageMeta: React.FC<IPageMetaProps> = ({
+export const PageMeta: React.FC< PropsWithChildren<IPageMetaProps>> = ({
   children,
   ...pageMeta
 }) => {
