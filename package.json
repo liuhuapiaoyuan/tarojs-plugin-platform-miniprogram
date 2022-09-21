@@ -1,6 +1,6 @@
 {
   "name": "@suntree/tarojs-plugin-platform-miniprogram",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "@tarojs/plugin-platform-weapp custom wxml support",
   "main": "dist/index.js",
   "scripts": {
@@ -22,8 +22,7 @@
   "peerDependencies": {
     "@tarojs/plugin-platform-weapp": "^3.5.0",
     "@tarojs/service": "^3.5.4",
-    "@tarojs/taro": "^3.5.4",
-    "react": "^17.0.0"
+    "@tarojs/taro": "^3.5.4"
   },
   "files": [
     "dist",
